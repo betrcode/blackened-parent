@@ -39,6 +39,14 @@
         <maven.surefire.plugin.version>2.7.2</maven.surefire.plugin.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>scala-tools.org</id>
+            <name>scala-tools.org Maven repository</name>
+            <url>http://www.scala-tools.org/repo-releases</url>
+        </repository>
+    </repositories>
+
     <build>
         <pluginManagement>
             <plugins>
